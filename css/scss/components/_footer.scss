@@ -1,0 +1,45 @@
+/* page footer */
+.footer {
+    margin: 3em 0;
+}
+
+.footer__nav {
+    display: flex;
+    margin-top: 5em;
+    margin-bottom: 3.5em;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.footer__nav a {
+    font-size: 16px;
+    padding: 0 .5em;
+}
+
+.footer__about {
+    padding: 2.2em 3em;
+    border-top: 1px dashed #d2d2d2;
+}
+
+.footer__copy {
+    font-size: 1.3rem;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.footer__copy,
+.footer__copy a,
+.footer__social a,
+.footer__dev,
+.footer__dev a {
+    color: #8e8e8e;
+}
+
+.footer__social, .footer__dev{
+    text-align: center;
+}
+
+.footer__social a {
+    padding: 10px;
+    font-size: 2rem;
+}
