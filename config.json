@@ -1,0 +1,46 @@
+{
+  "locals": {
+    "url": "https://ft-umj-4.github.io/story",
+    "logoUrl": "https://ft-umj-4.github.io/ft-umj-iv.jpg",
+    "name": "FT UMJ IV",
+    "owner": "GROUP FT UMJ IV",
+    "description": "FTUMJ IV - Alumni FT UMJ P2K Angkatan IV Tahun 2009 Jurusan Teknik Informatika",
+    "sitemap": "sitemap.xml",
+    "discuss_id": "ft-umj-4-github-io"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee",
+    "wintersmith-sassify",
+    "wintersmith-contents",
+    "wintersmith-robots",
+    "wintersmith-sitemap",
+    "wintersmith-tag"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 10
+  },
+  "sassify": {
+    "outputStyle": "compressed",
+    "sourceComments": false,
+    "sourceMap": false
+  },
+  "tag": {
+      "perPage": 10
+  },
+  "jsbundler": {
+    "sourceMap": false,
+    "minify": true
+  }
+}

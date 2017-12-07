@@ -1,0 +1,156 @@
+doctype html
+block vars
+  - var bodyclass = null;
+
+html(lang='id-ID')
+  head
+    block head
+      meta(charset='utf-8')
+      meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+      meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+
+      meta(name="language", content="id-ID")
+      meta(name="google-site-verification", content="UAE744dNdrYNm-16qkPjHNSiL2KzlQiXwFJf-Bwo3eo")
+      meta(name="yandex-verification", content="fc4324e4d218310d")
+      meta(name="msvalidate.01", content="BDC91DBE185F72C5761E652A2961807B")
+
+      block meta_title
+      block meta_description
+      block meta_image
+
+      link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
+
+      link(href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet")
+      link(href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet")
+      link(rel='stylesheet', href=locals.url+contents.css['main.css'].url)
+
+      link(rel='apple-touch-icon', sizes='57x57', href='https://ft-umj-4.github.io/favicon/apple-icon-57x57.png')
+      link(rel='apple-touch-icon', sizes='60x60', href='https://ft-umj-4.github.io/favicon/apple-icon-60x60.png')
+      link(rel='apple-touch-icon', sizes='72x72', href='https://ft-umj-4.github.io/favicon/apple-icon-72x72.png')
+      link(rel='apple-touch-icon', sizes='76x76', href='https://ft-umj-4.github.io/favicon/apple-icon-76x76.png')
+      link(rel='apple-touch-icon', sizes='114x114', href='https://ft-umj-4.github.io/favicon/apple-icon-114x114.png')
+      link(rel='apple-touch-icon', sizes='120x120', href='https://ft-umj-4.github.io/favicon/apple-icon-120x120.png')
+      link(rel='apple-touch-icon', sizes='144x144', href='https://ft-umj-4.github.io/favicon/apple-icon-144x144.png')
+      link(rel='apple-touch-icon', sizes='152x152', href='https://ft-umj-4.github.io/favicon/apple-icon-152x152.png')
+      link(rel='apple-touch-icon', sizes='180x180', href='https://ft-umj-4.github.io/favicon/apple-icon-180x180.png')
+      link(rel='icon', type='image/png', sizes='192x192', href='https://ft-umj-4.github.io/favicon/android-icon-192x192.png')
+      link(rel='icon', type='image/png', sizes='32x32', href='https://ft-umj-4.github.io/favicon/favicon-32x32.png')
+      link(rel='icon', type='image/png', sizes='96x96', href='https://ft-umj-4.github.io/favicon/favicon-96x96.png')
+      link(rel='icon', type='image/png', sizes='16x16', href='https://ft-umj-4.github.io/favicon/favicon-16x16.png')
+      link(rel='manifest', href='https://ft-umj-4.github.io/favicon/manifest.json')
+      meta(name='msapplication-TileColor', content='#008c34')
+      meta(name='msapplication-TileImage', content='https://ft-umj-4.github.io/favicon/ms-icon-144x144.png')
+      meta(name='theme-color', content='#008c34')
+  
+      script(src=locals.url+'/companion.js', data-service-worker=locals.url+'/sw.js')
+
+      base(href=locals.url)
+
+      script.
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-25065548-5', 'auto');
+        ga('send', 'pageview');
+
+
+  body.site
+
+  - var showTags = ['arisan', 'outing', 'bukber']
+  - var allTags = env.helpers.getAllTags()
+
+    header.header-fixed
+
+        nav.nav
+          div.nav__left
+            .nav__item.nav__logo
+              a(href=locals.url)
+                img(src=locals.logoUrl)
+            .nav__item.nav__brand
+              a(href=locals.url)= locals.name
+
+          div.nav__right
+            .nav__item.nav__link
+              a(href=locals.url) Home
+            .nav__item.nav__link
+              a(href=href=locals.url+'/archive.html') Semua Artikel
+
+            each tag in allTags
+              if env.helpers.getTagHome(tag) !== undefined
+                each showTag in showTags
+                  if tag === showTag
+                    .nav__item.nav__link
+                      a(href=locals.url+env.helpers.getTagHome(tag).url)= tag
+
+          div.nav__mobile
+              div.nav__mobile-btn#menu-toggle
+                  span
+                  span
+                  span
+                  span
+
+    aside.site__offcanvas.offcanvas.offcanvas--animated(role='aside')
+      div.offcanvas__overlay
+      ul
+
+        each tag in allTags
+          if env.helpers.getTagHome(tag) !== undefined
+            each showTag in showTags
+              if tag === showTag
+                li
+                  i.fa.fa-angle-double-right
+                  a(href=locals.url+env.helpers.getTagHome(tag).url)= tag
+
+        li
+          i.fa.fa-angle-double-right
+          a(href=href=locals.url+'/archive.html') Semua Artikel
+        li
+          i.fa.fa-angle-double-right
+          a(href=href=locals.url) Home
+
+    div.cover
+      section.content-wrap
+        block header
+
+          div.cover__logo
+            img(src=locals.logoUrl)
+            h1.cover__title
+              a(href=locals.url)= locals.name
+            p.cover__desc= locals.description
+
+    main#content
+      div.content-wrap
+        block content
+
+    footer.footer
+      div.content-wrap
+        block footer
+
+          section.footer__about
+            !=contents['about.md'].html
+
+          section.footer__copy
+            p Copyright &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
+              a(href='https://github.com/jnordberg/wintersmith') Wintersmith
+              //- please leave the "powered by" if you use the design
+
+          section.footer__social
+            a(href='https://github.com/ft-umj-4', target='_blank')
+              i.fa.fa-github
+            a(href='https://ft-umj-4.github.io', target='_blank')
+              i.fa.fa-globe
+            a(href='https://ft-umj-4.github.io/stories/', target='_blank')
+              i.fa.fa-rss
+
+          section.footer__dev
+            p Crafted with Love by&nbsp;
+              a(href='https://mazipanneh.com/blog/', target='_blank') Irfan Maulana
+              //- develop by Irfan Maulana
+
+    block footer_script
+
+  script(src=locals.url+contents.js['jquery.js'].url)
+  script.
+    var ROOT_URL = "#{locals.url}";
+  script(src=locals.url+contents.js['all-script.js'].url)

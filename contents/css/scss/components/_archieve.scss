@@ -1,0 +1,41 @@
+/* archive */
+
+.archive {
+    width: 80%;
+    margin: 5em auto 6em;
+    padding-left: 2em;
+}
+
+.archive h2 {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.archive ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.archive__year{
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px dashed #d2d2d2;
+}
+.archive__year-label{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: .5em 0;
+}
+.archive__month{
+    padding: 1em;
+}
+.archive__month-label{
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-bottom: 2em;
+}
+.archive__article{
+    padding: .5em;
+}
