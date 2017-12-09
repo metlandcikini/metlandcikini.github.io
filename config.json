@@ -1,12 +1,12 @@
 {
   "locals": {
-    "url": "https://ft-umj-4.github.io/story",
-    "logoUrl": "https://ft-umj-4.github.io/ft-umj-iv.jpg",
-    "name": "FT UMJ IV",
-    "owner": "GROUP FT UMJ IV",
-    "description": "FTUMJ IV - Alumni FT UMJ P2K Angkatan IV Tahun 2009 Jurusan Teknik Informatika",
+    "url": "https://metlandcikini.github.io",
+    "logoUrl": "https://metlandcikini.github.io/cikini.jpg",
+    "name": "CLUSTER METLAND CIKINI",
+    "owner": "GROUP METLAND CIKINI",
+    "description": "Perumahan metland cluster taman cikini",
     "sitemap": "sitemap.xml",
-    "discuss_id": "ft-umj-4-github-io"
+    "discuss_id": "metlandcikini"
   },
   "plugins": [
     "./plugins/paginator.coffee",
