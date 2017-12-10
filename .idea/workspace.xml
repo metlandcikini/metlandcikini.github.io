@@ -4697,6 +4697,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/npm/node_modules/libnpx/node_modules/yargs/locales/tr.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/npm/node_modules/libnpx/node_modules/yargs/locales/zh_CN.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/ajv/lib/$data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/3/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/page/4/index.html" afterPath="" />
     </list>
     <ignored path="metlandcikini.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -5046,7 +5049,7 @@
     <option name="totallyTimeSpent" value="3432000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="706" extended-state="1" />
+    <frame x="0" y="0" width="1366" height="706" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
