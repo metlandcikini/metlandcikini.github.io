@@ -2,72 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29538544-6018-4bbc-a0e5-47fc03a8a7c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.aggregates.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.all.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.backpressure.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.backpressure.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.binding.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.coincidence.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.coincidence.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.compat.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.joinpatterns.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.joinpatterns.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.lite.compat.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.lite.extras.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.lite.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.testing.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.virtualtime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.virtualtime.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/dist/rx.virtualtime.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/backpressure/controlled.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/backpressure/pausable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/backpressure/pausablebuffered.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/backpressure/stopandwait.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/backpressure/windowed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/concurrency/catchscheduler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/concurrency/currentthreadscheduler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/concurrency/historicalscheduler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/concurrency/immediatescheduler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/concurrency/scheduleditem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/concurrency/scheduleperiodicrecursive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/concurrency/scheduler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/concurrency/scheduler.periodic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/concurrency/scheduler.recursive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/concurrency/scheduler.wrappers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/concurrency/timeoutscheduler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/concurrency/virtualtimescheduler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/disposables/booleandisposable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/disposables/compositedisposable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/disposables/disposable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/disposables/refcountdisposable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/disposables/scheduleddisposable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/internal/dictionary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/internal/enumerable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/internal/enumerator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/internal/isequal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/internal/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/internal/objecttypes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/internal/polyfills.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/internal/priorityqueue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/internal/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/subjects/anonymoussubject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/subjects/asyncsubject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/subjects/behaviorsubject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/subjects/innersubscription.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/subjects/replaysubject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/subjects/subject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/testing/mockdisposable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/testing/mockpromise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/typogr/env-origin/lib/node_modules/bower/node_modules/inquirer/node_modules/rx/src/core/testing/reactivetest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/scss/all-style.css" afterPath="$PROJECT_DIR$/css/scss/all-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feed.xml" afterPath="$PROJECT_DIR$/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/robots.txt" afterPath="$PROJECT_DIR$/robots.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sitemap.xml" afterPath="$PROJECT_DIR$/sitemap.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag/arisan/1/index.html" afterPath="$PROJECT_DIR$/tag/arisan/1/index.html" />
@@ -114,10 +48,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="722" />
+    <option name="width" value="1366" />
+    <option name="height" value="706" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -422,7 +354,7 @@
     <option name="totallyTimeSpent" value="3432000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="722" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="706" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -438,7 +370,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810319" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25038284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
