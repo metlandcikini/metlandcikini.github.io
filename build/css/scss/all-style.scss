@@ -1,0 +1,41 @@
+/*!
+ * Copyright Irfan Maulana - 2017
+ * Developed for NodeJs Indonesia
+ */
+
+// MIXIN VARIABLE
+@import "mixins/appearance";
+@import "mixins/background";
+@import "mixins/border-radius";
+@import "mixins/boxes";
+@import "mixins/clearfix";
+@import "mixins/image";
+@import "mixins/placeholders";
+@import "mixins/transitions";
+@import "mixins/space";
+
+
+// VARIABLE DEFINITION
+@import "variables/colors";
+@import "variables/settings";
+
+// base body
+body{
+	background-color: #eaeae9;
+}
+
+// BASE AND HELPERS
+@import "helpers/normalize";
+@import "helpers/base";
+
+
+// COMPONENTS
+@import "components/header";
+@import "components/nav";
+@import "components/cover";
+@import "components/table";
+@import "components/article";
+@import "components/archieve";
+@import "components/footer";
+@import "components/offcanvas";
+@import "components/tommorow";
