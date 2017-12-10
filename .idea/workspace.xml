@@ -4697,9 +4697,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/npm/node_modules/libnpx/node_modules/yargs/locales/tr.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/npm/node_modules/libnpx/node_modules/yargs/locales/zh_CN.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/npm/node_modules/request/node_modules/har-validator/node_modules/ajv/lib/$data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/3/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/page/4/index.html" afterPath="" />
     </list>
     <ignored path="metlandcikini.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
