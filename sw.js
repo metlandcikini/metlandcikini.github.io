@@ -5,22 +5,22 @@
   var onejan = new Date(now.getFullYear(), 0, 1);
   var week = Math.ceil( (((now - onejan) / 86400000) + onejan.getDay() + 1) / 7 );
   var ver = now.toISOString().substring(0, 7);
-  var versionCache = '-FTUMJIV-story-' + ver + '-' + week
+  var versionCache = '-metlandcikini-' + ver + '-' + week
 
   // Load the sw-tookbox library.
-  importScripts('/story/sw-toolbox.js');
+  importScripts('/sw-toolbox.js');
 
   // Turn on debug logging, visible in the Developer Tools' console.
   // global.toolbox.options.debug = true;
   toolbox.precache([]);
 
-  toolbox.router.get('/story/sw/*', global.toolbox.cacheFirst, {
+  toolbox.router.get('/sw/*', global.toolbox.cacheFirst, {
       cache: {
           name: 'serviceWorkerCache' + versionCache,
           maxEntries: 200
       }
   });
-  toolbox.router.get('/story/**/*.{css}', global.toolbox.cacheFirst, {
+  toolbox.router.get('/**/*.{css}', global.toolbox.cacheFirst, {
     cache: {
       name: 'staticCssCache' + versionCache,
       maxEntries: 200
